@@ -9,21 +9,46 @@
 /* Begin PBXBuildFile section */
 		68E3AE922582348D001B4640 /* HandbookPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AE7F25823488001B4640 /* HandbookPlusApp.swift */; };
 		68E3AE932582348D001B4640 /* HandbookPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AE7F25823488001B4640 /* HandbookPlusApp.swift */; };
-		68E3AE942582348D001B4640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AE8025823488001B4640 /* ContentView.swift */; };
-		68E3AE952582348D001B4640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AE8025823488001B4640 /* ContentView.swift */; };
+		68E3AE942582348D001B4640 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AE8025823488001B4640 /* MainView.swift */; };
+		68E3AE952582348D001B4640 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AE8025823488001B4640 /* MainView.swift */; };
 		68E3AE962582348D001B4640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E3AE812582348D001B4640 /* Assets.xcassets */; };
 		68E3AE972582348D001B4640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E3AE812582348D001B4640 /* Assets.xcassets */; };
+		68E3AEAC2582370C001B4640 /* CatalogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEAB2582370C001B4640 /* CatalogModel.swift */; };
+		68E3AEAD2582370C001B4640 /* CatalogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEAB2582370C001B4640 /* CatalogModel.swift */; };
+		68E3AEB52582456D001B4640 /* ImageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEB42582456D001B4640 /* ImageOverlay.swift */; };
+		68E3AEB62582456D001B4640 /* ImageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEB42582456D001B4640 /* ImageOverlay.swift */; };
+		68E3AEBE258264FB001B4640 /* CatalogItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEBD258264FB001B4640 /* CatalogItemView.swift */; };
+		68E3AEBF258264FB001B4640 /* CatalogItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEBD258264FB001B4640 /* CatalogItemView.swift */; };
+		68E3AEC725833EF6001B4640 /* UnitConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEC625833EF6001B4640 /* UnitConversionView.swift */; };
+		68E3AEC825833EF6001B4640 /* UnitConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEC625833EF6001B4640 /* UnitConversionView.swift */; };
+		68E3AECC2583646A001B4640 /* UnitConversionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AECB2583646A001B4640 /* UnitConversionModel.swift */; };
+		68E3AECD2583646A001B4640 /* UnitConversionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AECB2583646A001B4640 /* UnitConversionModel.swift */; };
+		68E3AED32583953B001B4640 /* UpDownIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AED22583953B001B4640 /* UpDownIndexView.swift */; };
+		68E3AED42583953B001B4640 /* UpDownIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AED22583953B001B4640 /* UpDownIndexView.swift */; };
+		68E3AEE125839C39001B4640 /* ProportionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEE025839C39001B4640 /* ProportionView.swift */; };
+		68E3AEE225839C39001B4640 /* ProportionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEE025839C39001B4640 /* ProportionView.swift */; };
+		68E3AEE7258DBFE3001B4640 /* EngineerUnitConversionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEE6258DBFE2001B4640 /* EngineerUnitConversionData.swift */; };
+		68E3AEE8258DBFE3001B4640 /* EngineerUnitConversionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEE6258DBFE2001B4640 /* EngineerUnitConversionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		68E3AE7F25823488001B4640 /* HandbookPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookPlusApp.swift; sourceTree = "<group>"; };
-		68E3AE8025823488001B4640 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68E3AE8025823488001B4640 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		68E3AE812582348D001B4640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68E3AE862582348D001B4640 /* HandbookPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandbookPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E3AE892582348D001B4640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E3AE8E2582348D001B4640 /* HandbookPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandbookPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E3AE902582348D001B4640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E3AE912582348D001B4640 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		68E3AEA2258234C0001B4640 /* HandbookPlus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HandbookPlus.entitlements; sourceTree = "<group>"; };
+		68E3AEAB2582370C001B4640 /* CatalogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogModel.swift; sourceTree = "<group>"; };
+		68E3AEB42582456D001B4640 /* ImageOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOverlay.swift; sourceTree = "<group>"; };
+		68E3AEBD258264FB001B4640 /* CatalogItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogItemView.swift; sourceTree = "<group>"; };
+		68E3AEC625833EF6001B4640 /* UnitConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionView.swift; sourceTree = "<group>"; };
+		68E3AECB2583646A001B4640 /* UnitConversionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionModel.swift; sourceTree = "<group>"; };
+		68E3AED22583953B001B4640 /* UpDownIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownIndexView.swift; sourceTree = "<group>"; };
+		68E3AEE025839C39001B4640 /* ProportionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionView.swift; sourceTree = "<group>"; };
+		68E3AEE6258DBFE2001B4640 /* EngineerUnitConversionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerUnitConversionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,13 @@
 		68E3AE7925823487001B4640 = {
 			isa = PBXGroup;
 			children = (
+				68E3AEA2258234C0001B4640 /* HandbookPlus.entitlements */,
+				68E3AEAB2582370C001B4640 /* CatalogModel.swift */,
+				68E3AECB2583646A001B4640 /* UnitConversionModel.swift */,
+				68E3AEE6258DBFE2001B4640 /* EngineerUnitConversionData.swift */,
+				68E3AEB42582456D001B4640 /* ImageOverlay.swift */,
+				68E3AED22583953B001B4640 /* UpDownIndexView.swift */,
+				68E3AEE025839C39001B4640 /* ProportionView.swift */,
 				68E3AE7E25823488001B4640 /* Shared */,
 				68E3AE882582348D001B4640 /* iOS */,
 				68E3AE8F2582348D001B4640 /* macOS */,
@@ -58,7 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				68E3AE7F25823488001B4640 /* HandbookPlusApp.swift */,
-				68E3AE8025823488001B4640 /* ContentView.swift */,
+				68E3AE8025823488001B4640 /* MainView.swift */,
+				68E3AEBD258264FB001B4640 /* CatalogItemView.swift */,
+				68E3AEC625833EF6001B4640 /* UnitConversionView.swift */,
 				68E3AE812582348D001B4640 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -150,7 +184,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 68E3AE7925823487001B4640;
 			productRefGroup = 68E3AE872582348D001B4640 /* Products */;
@@ -187,8 +220,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E3AE942582348D001B4640 /* ContentView.swift in Sources */,
+				68E3AED32583953B001B4640 /* UpDownIndexView.swift in Sources */,
+				68E3AEAC2582370C001B4640 /* CatalogModel.swift in Sources */,
+				68E3AEE125839C39001B4640 /* ProportionView.swift in Sources */,
+				68E3AEBE258264FB001B4640 /* CatalogItemView.swift in Sources */,
+				68E3AEE7258DBFE3001B4640 /* EngineerUnitConversionData.swift in Sources */,
+				68E3AECC2583646A001B4640 /* UnitConversionModel.swift in Sources */,
+				68E3AEC725833EF6001B4640 /* UnitConversionView.swift in Sources */,
+				68E3AE942582348D001B4640 /* MainView.swift in Sources */,
 				68E3AE922582348D001B4640 /* HandbookPlusApp.swift in Sources */,
+				68E3AEB52582456D001B4640 /* ImageOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +237,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E3AE952582348D001B4640 /* ContentView.swift in Sources */,
+				68E3AED42583953B001B4640 /* UpDownIndexView.swift in Sources */,
+				68E3AEAD2582370C001B4640 /* CatalogModel.swift in Sources */,
+				68E3AEE225839C39001B4640 /* ProportionView.swift in Sources */,
+				68E3AEBF258264FB001B4640 /* CatalogItemView.swift in Sources */,
+				68E3AEE8258DBFE3001B4640 /* EngineerUnitConversionData.swift in Sources */,
+				68E3AECD2583646A001B4640 /* UnitConversionModel.swift in Sources */,
+				68E3AEC825833EF6001B4640 /* UnitConversionView.swift in Sources */,
+				68E3AE952582348D001B4640 /* MainView.swift in Sources */,
 				68E3AE932582348D001B4640 /* HandbookPlusApp.swift in Sources */,
+				68E3AEB62582456D001B4640 /* ImageOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +304,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -308,6 +359,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -320,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HandbookPlus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7C46924T49;
 				ENABLE_PREVIEWS = YES;
@@ -332,6 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = VSA.HandbookPlus;
 				PRODUCT_NAME = HandbookPlus;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HandbookPlus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7C46924T49;
 				ENABLE_PREVIEWS = YES;
@@ -354,6 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = VSA.HandbookPlus;
 				PRODUCT_NAME = HandbookPlus;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
