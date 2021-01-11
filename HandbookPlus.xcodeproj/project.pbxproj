@@ -69,16 +69,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		687595D7258E10AF006A2309 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68E3AEAB2582370C001B4640 /* CatalogModel.swift */,
+				68E3AECB2583646A001B4640 /* UnitConversionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		687595D8258E10CC006A2309 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				68E3AEE6258DBFE2001B4640 /* EngineerUnitConversionData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		687595D9258E10F0006A2309 /* SupportView */ = {
+			isa = PBXGroup;
+			children = (
+				68E3AEB42582456D001B4640 /* ImageOverlay.swift */,
+				68E3AED22583953B001B4640 /* UpDownIndexView.swift */,
+				68E3AEE025839C39001B4640 /* ProportionView.swift */,
+			);
+			path = SupportView;
+			sourceTree = "<group>";
+		};
+		687595DC258E1109006A2309 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				68E3AEC625833EF6001B4640 /* UnitConversionView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
 		68E3AE7925823487001B4640 = {
 			isa = PBXGroup;
 			children = (
 				68E3AEA2258234C0001B4640 /* HandbookPlus.entitlements */,
-				68E3AEAB2582370C001B4640 /* CatalogModel.swift */,
-				68E3AECB2583646A001B4640 /* UnitConversionModel.swift */,
-				68E3AEE6258DBFE2001B4640 /* EngineerUnitConversionData.swift */,
-				68E3AEB42582456D001B4640 /* ImageOverlay.swift */,
-				68E3AED22583953B001B4640 /* UpDownIndexView.swift */,
-				68E3AEE025839C39001B4640 /* ProportionView.swift */,
+				687595D7258E10AF006A2309 /* Model */,
+				687595D8258E10CC006A2309 /* Data */,
 				68E3AE7E25823488001B4640 /* Shared */,
 				68E3AE882582348D001B4640 /* iOS */,
 				68E3AE8F2582348D001B4640 /* macOS */,
@@ -92,7 +123,8 @@
 				68E3AE7F25823488001B4640 /* HandbookPlusApp.swift */,
 				68E3AE8025823488001B4640 /* MainView.swift */,
 				68E3AEBD258264FB001B4640 /* CatalogItemView.swift */,
-				68E3AEC625833EF6001B4640 /* UnitConversionView.swift */,
+				687595DC258E1109006A2309 /* TabView */,
+				687595D9258E10F0006A2309 /* SupportView */,
 				68E3AE812582348D001B4640 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -168,7 +200,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					68E3AE852582348D001B4640 = {
 						CreatedOnToolsVersion = 12.2;
@@ -184,6 +216,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 68E3AE7925823487001B4640;
 			productRefGroup = 68E3AE872582348D001B4640 /* Products */;
@@ -423,6 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7C46924T49;
@@ -447,6 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7C46924T49;

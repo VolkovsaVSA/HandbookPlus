@@ -15,10 +15,12 @@ struct UnitConversionModel {
     }
     struct LineUnitConversion {
         var lineGridType: [GridItem]
-        var lineTitles: [AnyView]
+        var lineTitles: [[AnyView]]
         var lineFont: Font
     }
     
     var headerGrid: HeaderUnitConversion
     var lineGrid: LineUnitConversion
+    
 }
+

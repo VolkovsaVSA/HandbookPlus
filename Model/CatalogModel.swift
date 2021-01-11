@@ -23,7 +23,7 @@ let testData = [
             headerGrid: UnitConversionModel.HeaderUnitConversion(headerGridType: [GridItem(.flexible())],
                                                                  headerTitles: [AnyView(EmptyView())], headerFont: Font.system(size: 10)),
             lineGrid: UnitConversionModel.LineUnitConversion(lineGridType: [GridItem(.flexible())],
-                                                             lineTitles: [AnyView(EmptyView())], lineFont: Font.system(size: 10))
+                                                             lineTitles: [[AnyView(EmptyView())]], lineFont: Font.system(size: 10))
         )
     ),
     CatalogModel(
@@ -33,7 +33,7 @@ let testData = [
             headerGrid: UnitConversionModel.HeaderUnitConversion(headerGridType: [GridItem(.flexible())],
                                                                  headerTitles: [AnyView(EmptyView())], headerFont: Font.system(size: 10)),
             lineGrid: UnitConversionModel.LineUnitConversion(lineGridType: [GridItem(.flexible())],
-                                                             lineTitles: [AnyView(EmptyView())], lineFont: Font.system(size: 10))
+                                                             lineTitles: [[AnyView(EmptyView())]], lineFont: Font.system(size: 10))
         )
     ),
     CatalogModel(
@@ -47,7 +47,7 @@ let testData = [
             headerGrid: UnitConversionModel.HeaderUnitConversion(headerGridType: [GridItem(.flexible())],
                                                                  headerTitles: [AnyView(EmptyView())], headerFont: Font.system(size: 10)),
             lineGrid: UnitConversionModel.LineUnitConversion(lineGridType: [GridItem(.flexible())],
-                                                             lineTitles: [AnyView(EmptyView())], lineFont: Font.system(size: 10))
+                                                             lineTitles: [[AnyView(EmptyView())]], lineFont: Font.system(size: 10))
         )
     )
 ]
