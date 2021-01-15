@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68536FD525B1A9CE0009AA94 /* UnitPressureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68536FD425B1A9CE0009AA94 /* UnitPressureModel.swift */; };
+		68536FD625B1A9CE0009AA94 /* UnitPressureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68536FD425B1A9CE0009AA94 /* UnitPressureModel.swift */; };
+		68536FDA25B1AA540009AA94 /* UnitSpeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68536FD925B1AA540009AA94 /* UnitSpeedModel.swift */; };
+		68536FDB25B1AA540009AA94 /* UnitSpeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68536FD925B1AA540009AA94 /* UnitSpeedModel.swift */; };
+		68536FDF25B1AABB0009AA94 /* UnitTemperatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68536FDE25B1AABB0009AA94 /* UnitTemperatureModel.swift */; };
+		68536FE025B1AABB0009AA94 /* UnitTemperatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68536FDE25B1AABB0009AA94 /* UnitTemperatureModel.swift */; };
+		68536FE425B1AB180009AA94 /* UnitVolumeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68536FE325B1AB180009AA94 /* UnitVolumeModel.swift */; };
+		68536FE525B1AB180009AA94 /* UnitVolumeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68536FE325B1AB180009AA94 /* UnitVolumeModel.swift */; };
 		68E3AE922582348D001B4640 /* HandbookPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AE7F25823488001B4640 /* HandbookPlusApp.swift */; };
 		68E3AE932582348D001B4640 /* HandbookPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AE7F25823488001B4640 /* HandbookPlusApp.swift */; };
 		68E3AE942582348D001B4640 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AE8025823488001B4640 /* MainView.swift */; };
@@ -29,9 +37,63 @@
 		68E3AEE225839C39001B4640 /* ProportionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEE025839C39001B4640 /* ProportionView.swift */; };
 		68E3AEE7258DBFE3001B4640 /* EngineerUnitConversionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEE6258DBFE2001B4640 /* EngineerUnitConversionData.swift */; };
 		68E3AEE8258DBFE3001B4640 /* EngineerUnitConversionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3AEE6258DBFE2001B4640 /* EngineerUnitConversionData.swift */; };
+		68EF1D1725AD72C0005A9973 /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D1625AD72BF005A9973 /* CalcView.swift */; };
+		68EF1D1825AD72C0005A9973 /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D1625AD72BF005A9973 /* CalcView.swift */; };
+		68EF1D2125AD76DE005A9973 /* EngineerCalcData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D2025AD76DE005A9973 /* EngineerCalcData.swift */; };
+		68EF1D2225AD76DE005A9973 /* EngineerCalcData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D2025AD76DE005A9973 /* EngineerCalcData.swift */; };
+		68EF1D3025ADA8B9005A9973 /* UnitExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D2F25ADA8B9005A9973 /* UnitExtention.swift */; };
+		68EF1D3125ADA8B9005A9973 /* UnitExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D2F25ADA8B9005A9973 /* UnitExtention.swift */; };
+		68EF1D3925AEDE32005A9973 /* CalcButtonModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D3825AEDE30005A9973 /* CalcButtonModifire.swift */; };
+		68EF1D3A25AEDE32005A9973 /* CalcButtonModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D3825AEDE30005A9973 /* CalcButtonModifire.swift */; };
+		68EF1D4025AEE0AE005A9973 /* UnitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D3F25AEE0AE005A9973 /* UnitViewModel.swift */; };
+		68EF1D4125AEE0AE005A9973 /* UnitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D3F25AEE0AE005A9973 /* UnitViewModel.swift */; };
+		68EF1D5425B178EF005A9973 /* CalcUnitsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D5325B178EF005A9973 /* CalcUnitsListView.swift */; };
+		68EF1D5525B178EF005A9973 /* CalcUnitsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D5325B178EF005A9973 /* CalcUnitsListView.swift */; };
+		68EF1D5B25B17BBB005A9973 /* UnitLengthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D5A25B17BBB005A9973 /* UnitLengthModel.swift */; };
+		68EF1D5C25B17BBB005A9973 /* UnitLengthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D5A25B17BBB005A9973 /* UnitLengthModel.swift */; };
+		68EF1D6025B1845A005A9973 /* UnitCalcModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D5F25B1845A005A9973 /* UnitCalcModelProtocol.swift */; };
+		68EF1D6125B1845A005A9973 /* UnitCalcModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D5F25B1845A005A9973 /* UnitCalcModelProtocol.swift */; };
+		68EF1D6725B18510005A9973 /* MyUnitCalcType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D6625B18510005A9973 /* MyUnitCalcType.swift */; };
+		68EF1D6825B18510005A9973 /* MyUnitCalcType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D6625B18510005A9973 /* MyUnitCalcType.swift */; };
+		68EF1D7025B186AB005A9973 /* UnitAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D6F25B186AB005A9973 /* UnitAreaModel.swift */; };
+		68EF1D7125B186AB005A9973 /* UnitAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D6F25B186AB005A9973 /* UnitAreaModel.swift */; };
+		68EF1D7525B1871E005A9973 /* qqq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D7425B1871E005A9973 /* qqq.swift */; };
+		68EF1D7625B1871E005A9973 /* qqq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D7425B1871E005A9973 /* qqq.swift */; };
+		68EF1D7A25B18833005A9973 /* UnitAccelerationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D7925B18833005A9973 /* UnitAccelerationModel.swift */; };
+		68EF1D7B25B18833005A9973 /* UnitAccelerationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D7925B18833005A9973 /* UnitAccelerationModel.swift */; };
+		68EF1D7F25B18905005A9973 /* UnitAngleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D7E25B18905005A9973 /* UnitAngleModel.swift */; };
+		68EF1D8025B18905005A9973 /* UnitAngleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D7E25B18905005A9973 /* UnitAngleModel.swift */; };
+		68EF1D8425B18985005A9973 /* UnitDispersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D8325B18985005A9973 /* UnitDispersionModel.swift */; };
+		68EF1D8525B18985005A9973 /* UnitDispersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D8325B18985005A9973 /* UnitDispersionModel.swift */; };
+		68EF1D8925B189E4005A9973 /* UnitDurationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D8825B189E4005A9973 /* UnitDurationModel.swift */; };
+		68EF1D8A25B189E4005A9973 /* UnitDurationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D8825B189E4005A9973 /* UnitDurationModel.swift */; };
+		68EF1D8E25B18A72005A9973 /* UnitElectricChargeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D8D25B18A72005A9973 /* UnitElectricChargeModel.swift */; };
+		68EF1D8F25B18A72005A9973 /* UnitElectricChargeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D8D25B18A72005A9973 /* UnitElectricChargeModel.swift */; };
+		68EF1D9325B18B55005A9973 /* UnitElectricCurrentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D9225B18B55005A9973 /* UnitElectricCurrentModel.swift */; };
+		68EF1D9425B18B55005A9973 /* UnitElectricCurrentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D9225B18B55005A9973 /* UnitElectricCurrentModel.swift */; };
+		68EF1D9825B18BD9005A9973 /* UnitElectricPotentialDifferenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D9725B18BD9005A9973 /* UnitElectricPotentialDifferenceModel.swift */; };
+		68EF1D9925B18BD9005A9973 /* UnitElectricPotentialDifferenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D9725B18BD9005A9973 /* UnitElectricPotentialDifferenceModel.swift */; };
+		68EF1DA025B18C90005A9973 /* UnitElectricResistanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D9F25B18C90005A9973 /* UnitElectricResistanceModel.swift */; };
+		68EF1DA125B18C90005A9973 /* UnitElectricResistanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1D9F25B18C90005A9973 /* UnitElectricResistanceModel.swift */; };
+		68EF1DA525B18F08005A9973 /* UnitEnergyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DA425B18F08005A9973 /* UnitEnergyModel.swift */; };
+		68EF1DA625B18F08005A9973 /* UnitEnergyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DA425B18F08005A9973 /* UnitEnergyModel.swift */; };
+		68EF1DAA25B1912C005A9973 /* UnitFrequencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DA925B1912C005A9973 /* UnitFrequencyModel.swift */; };
+		68EF1DAB25B1912C005A9973 /* UnitFrequencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DA925B1912C005A9973 /* UnitFrequencyModel.swift */; };
+		68EF1DAF25B191B9005A9973 /* UnitFuelEfficiencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DAE25B191B9005A9973 /* UnitFuelEfficiencyModel.swift */; };
+		68EF1DB025B191B9005A9973 /* UnitFuelEfficiencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DAE25B191B9005A9973 /* UnitFuelEfficiencyModel.swift */; };
+		68EF1DB425B1921C005A9973 /* UnitIlluminanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DB325B1921C005A9973 /* UnitIlluminanceModel.swift */; };
+		68EF1DB525B1921C005A9973 /* UnitIlluminanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DB325B1921C005A9973 /* UnitIlluminanceModel.swift */; };
+		68EF1DB925B1927F005A9973 /* UnitInformationStorageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DB825B1927F005A9973 /* UnitInformationStorageModel.swift */; };
+		68EF1DBA25B1927F005A9973 /* UnitInformationStorageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DB825B1927F005A9973 /* UnitInformationStorageModel.swift */; };
+		68EF1DBE25B19E98005A9973 /* UnitMassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DBD25B19E97005A9973 /* UnitMassModel.swift */; };
+		68EF1DBF25B19E98005A9973 /* UnitMassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF1DBD25B19E97005A9973 /* UnitMassModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68536FD425B1A9CE0009AA94 /* UnitPressureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitPressureModel.swift; sourceTree = "<group>"; };
+		68536FD925B1AA540009AA94 /* UnitSpeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitSpeedModel.swift; sourceTree = "<group>"; };
+		68536FDE25B1AABB0009AA94 /* UnitTemperatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTemperatureModel.swift; sourceTree = "<group>"; };
+		68536FE325B1AB180009AA94 /* UnitVolumeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitVolumeModel.swift; sourceTree = "<group>"; };
 		68E3AE7F25823488001B4640 /* HandbookPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookPlusApp.swift; sourceTree = "<group>"; };
 		68E3AE8025823488001B4640 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		68E3AE812582348D001B4640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +111,31 @@
 		68E3AED22583953B001B4640 /* UpDownIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownIndexView.swift; sourceTree = "<group>"; };
 		68E3AEE025839C39001B4640 /* ProportionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionView.swift; sourceTree = "<group>"; };
 		68E3AEE6258DBFE2001B4640 /* EngineerUnitConversionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerUnitConversionData.swift; sourceTree = "<group>"; };
+		68EF1D1625AD72BF005A9973 /* CalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
+		68EF1D2025AD76DE005A9973 /* EngineerCalcData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerCalcData.swift; sourceTree = "<group>"; };
+		68EF1D2F25ADA8B9005A9973 /* UnitExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitExtention.swift; sourceTree = "<group>"; };
+		68EF1D3825AEDE30005A9973 /* CalcButtonModifire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButtonModifire.swift; sourceTree = "<group>"; };
+		68EF1D3F25AEE0AE005A9973 /* UnitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitViewModel.swift; sourceTree = "<group>"; };
+		68EF1D5325B178EF005A9973 /* CalcUnitsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcUnitsListView.swift; sourceTree = "<group>"; };
+		68EF1D5A25B17BBB005A9973 /* UnitLengthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitLengthModel.swift; sourceTree = "<group>"; };
+		68EF1D5F25B1845A005A9973 /* UnitCalcModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCalcModelProtocol.swift; sourceTree = "<group>"; };
+		68EF1D6625B18510005A9973 /* MyUnitCalcType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUnitCalcType.swift; sourceTree = "<group>"; };
+		68EF1D6F25B186AB005A9973 /* UnitAreaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitAreaModel.swift; sourceTree = "<group>"; };
+		68EF1D7425B1871E005A9973 /* qqq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qqq.swift; sourceTree = "<group>"; };
+		68EF1D7925B18833005A9973 /* UnitAccelerationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitAccelerationModel.swift; sourceTree = "<group>"; };
+		68EF1D7E25B18905005A9973 /* UnitAngleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitAngleModel.swift; sourceTree = "<group>"; };
+		68EF1D8325B18985005A9973 /* UnitDispersionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitDispersionModel.swift; sourceTree = "<group>"; };
+		68EF1D8825B189E4005A9973 /* UnitDurationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitDurationModel.swift; sourceTree = "<group>"; };
+		68EF1D8D25B18A72005A9973 /* UnitElectricChargeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitElectricChargeModel.swift; sourceTree = "<group>"; };
+		68EF1D9225B18B55005A9973 /* UnitElectricCurrentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitElectricCurrentModel.swift; sourceTree = "<group>"; };
+		68EF1D9725B18BD9005A9973 /* UnitElectricPotentialDifferenceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitElectricPotentialDifferenceModel.swift; sourceTree = "<group>"; };
+		68EF1D9F25B18C90005A9973 /* UnitElectricResistanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitElectricResistanceModel.swift; sourceTree = "<group>"; };
+		68EF1DA425B18F08005A9973 /* UnitEnergyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitEnergyModel.swift; sourceTree = "<group>"; };
+		68EF1DA925B1912C005A9973 /* UnitFrequencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitFrequencyModel.swift; sourceTree = "<group>"; };
+		68EF1DAE25B191B9005A9973 /* UnitFuelEfficiencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitFuelEfficiencyModel.swift; sourceTree = "<group>"; };
+		68EF1DB325B1921C005A9973 /* UnitIlluminanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitIlluminanceModel.swift; sourceTree = "<group>"; };
+		68EF1DB825B1927F005A9973 /* UnitInformationStorageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitInformationStorageModel.swift; sourceTree = "<group>"; };
+		68EF1DBD25B19E97005A9973 /* UnitMassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitMassModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +161,9 @@
 			children = (
 				68E3AEAB2582370C001B4640 /* CatalogModel.swift */,
 				68E3AECB2583646A001B4640 /* UnitConversionModel.swift */,
+				68EF1D3F25AEE0AE005A9973 /* UnitViewModel.swift */,
+				68EF1D9C25B18C57005A9973 /* UnitCalcModel */,
+				68EF1D7425B1871E005A9973 /* qqq.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				68E3AEE6258DBFE2001B4640 /* EngineerUnitConversionData.swift */,
+				68EF1D2025AD76DE005A9973 /* EngineerCalcData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -92,6 +183,7 @@
 				68E3AEB42582456D001B4640 /* ImageOverlay.swift */,
 				68E3AED22583953B001B4640 /* UpDownIndexView.swift */,
 				68E3AEE025839C39001B4640 /* ProportionView.swift */,
+				68EF1D3825AEDE30005A9973 /* CalcButtonModifire.swift */,
 			);
 			path = SupportView;
 			sourceTree = "<group>";
@@ -100,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				68E3AEC625833EF6001B4640 /* UnitConversionView.swift */,
+				68EF1D1625AD72BF005A9973 /* CalcView.swift */,
+				68EF1D5325B178EF005A9973 /* CalcUnitsListView.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -108,8 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				68E3AEA2258234C0001B4640 /* HandbookPlus.entitlements */,
-				687595D7258E10AF006A2309 /* Model */,
-				687595D8258E10CC006A2309 /* Data */,
 				68E3AE7E25823488001B4640 /* Shared */,
 				68E3AE882582348D001B4640 /* iOS */,
 				68E3AE8F2582348D001B4640 /* macOS */,
@@ -120,11 +212,10 @@
 		68E3AE7E25823488001B4640 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				68E3AE7F25823488001B4640 /* HandbookPlusApp.swift */,
-				68E3AE8025823488001B4640 /* MainView.swift */,
-				68E3AEBD258264FB001B4640 /* CatalogItemView.swift */,
-				687595DC258E1109006A2309 /* TabView */,
-				687595D9258E10F0006A2309 /* SupportView */,
+				687595D7258E10AF006A2309 /* Model */,
+				687595D8258E10CC006A2309 /* Data */,
+				68EF1D2925ADA80F005A9973 /* View */,
+				68EF1D2F25ADA8B9005A9973 /* UnitExtention.swift */,
 				68E3AE812582348D001B4640 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -154,6 +245,47 @@
 				68E3AE912582348D001B4640 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		68EF1D2925ADA80F005A9973 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68E3AE7F25823488001B4640 /* HandbookPlusApp.swift */,
+				68E3AE8025823488001B4640 /* MainView.swift */,
+				68E3AEBD258264FB001B4640 /* CatalogItemView.swift */,
+				687595DC258E1109006A2309 /* TabView */,
+				687595D9258E10F0006A2309 /* SupportView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68EF1D9C25B18C57005A9973 /* UnitCalcModel */ = {
+			isa = PBXGroup;
+			children = (
+				68EF1D6625B18510005A9973 /* MyUnitCalcType.swift */,
+				68EF1D5F25B1845A005A9973 /* UnitCalcModelProtocol.swift */,
+				68EF1D7925B18833005A9973 /* UnitAccelerationModel.swift */,
+				68EF1D7E25B18905005A9973 /* UnitAngleModel.swift */,
+				68EF1D6F25B186AB005A9973 /* UnitAreaModel.swift */,
+				68EF1D8325B18985005A9973 /* UnitDispersionModel.swift */,
+				68EF1D8825B189E4005A9973 /* UnitDurationModel.swift */,
+				68EF1D8D25B18A72005A9973 /* UnitElectricChargeModel.swift */,
+				68EF1D9225B18B55005A9973 /* UnitElectricCurrentModel.swift */,
+				68EF1D9725B18BD9005A9973 /* UnitElectricPotentialDifferenceModel.swift */,
+				68EF1D9F25B18C90005A9973 /* UnitElectricResistanceModel.swift */,
+				68EF1DA425B18F08005A9973 /* UnitEnergyModel.swift */,
+				68EF1DA925B1912C005A9973 /* UnitFrequencyModel.swift */,
+				68EF1DAE25B191B9005A9973 /* UnitFuelEfficiencyModel.swift */,
+				68EF1DB325B1921C005A9973 /* UnitIlluminanceModel.swift */,
+				68EF1DB825B1927F005A9973 /* UnitInformationStorageModel.swift */,
+				68EF1D5A25B17BBB005A9973 /* UnitLengthModel.swift */,
+				68EF1DBD25B19E97005A9973 /* UnitMassModel.swift */,
+				68536FD425B1A9CE0009AA94 /* UnitPressureModel.swift */,
+				68536FD925B1AA540009AA94 /* UnitSpeedModel.swift */,
+				68536FDE25B1AABB0009AA94 /* UnitTemperatureModel.swift */,
+				68536FE325B1AB180009AA94 /* UnitVolumeModel.swift */,
+			);
+			path = UnitCalcModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,16 +385,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EF1D5B25B17BBB005A9973 /* UnitLengthModel.swift in Sources */,
+				68EF1DBE25B19E98005A9973 /* UnitMassModel.swift in Sources */,
 				68E3AED32583953B001B4640 /* UpDownIndexView.swift in Sources */,
+				68EF1DA025B18C90005A9973 /* UnitElectricResistanceModel.swift in Sources */,
+				68EF1D3925AEDE32005A9973 /* CalcButtonModifire.swift in Sources */,
+				68EF1D6725B18510005A9973 /* MyUnitCalcType.swift in Sources */,
 				68E3AEAC2582370C001B4640 /* CatalogModel.swift in Sources */,
+				68EF1D4025AEE0AE005A9973 /* UnitViewModel.swift in Sources */,
+				68536FD525B1A9CE0009AA94 /* UnitPressureModel.swift in Sources */,
+				68EF1DA525B18F08005A9973 /* UnitEnergyModel.swift in Sources */,
 				68E3AEE125839C39001B4640 /* ProportionView.swift in Sources */,
+				68EF1DB425B1921C005A9973 /* UnitIlluminanceModel.swift in Sources */,
+				68EF1D7F25B18905005A9973 /* UnitAngleModel.swift in Sources */,
+				68536FE425B1AB180009AA94 /* UnitVolumeModel.swift in Sources */,
+				68EF1DAF25B191B9005A9973 /* UnitFuelEfficiencyModel.swift in Sources */,
+				68EF1DB925B1927F005A9973 /* UnitInformationStorageModel.swift in Sources */,
 				68E3AEBE258264FB001B4640 /* CatalogItemView.swift in Sources */,
 				68E3AEE7258DBFE3001B4640 /* EngineerUnitConversionData.swift in Sources */,
+				68EF1D8E25B18A72005A9973 /* UnitElectricChargeModel.swift in Sources */,
 				68E3AECC2583646A001B4640 /* UnitConversionModel.swift in Sources */,
+				68EF1D5425B178EF005A9973 /* CalcUnitsListView.swift in Sources */,
+				68EF1D7A25B18833005A9973 /* UnitAccelerationModel.swift in Sources */,
+				68EF1D8425B18985005A9973 /* UnitDispersionModel.swift in Sources */,
+				68EF1D7525B1871E005A9973 /* qqq.swift in Sources */,
+				68EF1D9825B18BD9005A9973 /* UnitElectricPotentialDifferenceModel.swift in Sources */,
 				68E3AEC725833EF6001B4640 /* UnitConversionView.swift in Sources */,
+				68EF1D6025B1845A005A9973 /* UnitCalcModelProtocol.swift in Sources */,
+				68EF1D1725AD72C0005A9973 /* CalcView.swift in Sources */,
+				68EF1D9325B18B55005A9973 /* UnitElectricCurrentModel.swift in Sources */,
+				68536FDF25B1AABB0009AA94 /* UnitTemperatureModel.swift in Sources */,
+				68EF1D3025ADA8B9005A9973 /* UnitExtention.swift in Sources */,
+				68EF1D2125AD76DE005A9973 /* EngineerCalcData.swift in Sources */,
+				68EF1D7025B186AB005A9973 /* UnitAreaModel.swift in Sources */,
 				68E3AE942582348D001B4640 /* MainView.swift in Sources */,
+				68EF1DAA25B1912C005A9973 /* UnitFrequencyModel.swift in Sources */,
 				68E3AE922582348D001B4640 /* HandbookPlusApp.swift in Sources */,
+				68536FDA25B1AA540009AA94 /* UnitSpeedModel.swift in Sources */,
 				68E3AEB52582456D001B4640 /* ImageOverlay.swift in Sources */,
+				68EF1D8925B189E4005A9973 /* UnitDurationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,16 +431,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EF1D5C25B17BBB005A9973 /* UnitLengthModel.swift in Sources */,
+				68EF1DBF25B19E98005A9973 /* UnitMassModel.swift in Sources */,
 				68E3AED42583953B001B4640 /* UpDownIndexView.swift in Sources */,
+				68EF1DA125B18C90005A9973 /* UnitElectricResistanceModel.swift in Sources */,
+				68EF1D3A25AEDE32005A9973 /* CalcButtonModifire.swift in Sources */,
+				68EF1D6825B18510005A9973 /* MyUnitCalcType.swift in Sources */,
 				68E3AEAD2582370C001B4640 /* CatalogModel.swift in Sources */,
+				68EF1D4125AEE0AE005A9973 /* UnitViewModel.swift in Sources */,
+				68536FD625B1A9CE0009AA94 /* UnitPressureModel.swift in Sources */,
+				68EF1DA625B18F08005A9973 /* UnitEnergyModel.swift in Sources */,
 				68E3AEE225839C39001B4640 /* ProportionView.swift in Sources */,
+				68EF1DB525B1921C005A9973 /* UnitIlluminanceModel.swift in Sources */,
+				68EF1D8025B18905005A9973 /* UnitAngleModel.swift in Sources */,
+				68536FE525B1AB180009AA94 /* UnitVolumeModel.swift in Sources */,
+				68EF1DB025B191B9005A9973 /* UnitFuelEfficiencyModel.swift in Sources */,
+				68EF1DBA25B1927F005A9973 /* UnitInformationStorageModel.swift in Sources */,
 				68E3AEBF258264FB001B4640 /* CatalogItemView.swift in Sources */,
 				68E3AEE8258DBFE3001B4640 /* EngineerUnitConversionData.swift in Sources */,
+				68EF1D8F25B18A72005A9973 /* UnitElectricChargeModel.swift in Sources */,
 				68E3AECD2583646A001B4640 /* UnitConversionModel.swift in Sources */,
+				68EF1D5525B178EF005A9973 /* CalcUnitsListView.swift in Sources */,
+				68EF1D7B25B18833005A9973 /* UnitAccelerationModel.swift in Sources */,
+				68EF1D8525B18985005A9973 /* UnitDispersionModel.swift in Sources */,
+				68EF1D7625B1871E005A9973 /* qqq.swift in Sources */,
+				68EF1D9925B18BD9005A9973 /* UnitElectricPotentialDifferenceModel.swift in Sources */,
 				68E3AEC825833EF6001B4640 /* UnitConversionView.swift in Sources */,
+				68EF1D6125B1845A005A9973 /* UnitCalcModelProtocol.swift in Sources */,
+				68EF1D1825AD72C0005A9973 /* CalcView.swift in Sources */,
+				68EF1D9425B18B55005A9973 /* UnitElectricCurrentModel.swift in Sources */,
+				68536FE025B1AABB0009AA94 /* UnitTemperatureModel.swift in Sources */,
+				68EF1D3125ADA8B9005A9973 /* UnitExtention.swift in Sources */,
+				68EF1D2225AD76DE005A9973 /* EngineerCalcData.swift in Sources */,
+				68EF1D7125B186AB005A9973 /* UnitAreaModel.swift in Sources */,
 				68E3AE952582348D001B4640 /* MainView.swift in Sources */,
+				68EF1DAB25B1912C005A9973 /* UnitFrequencyModel.swift in Sources */,
 				68E3AE932582348D001B4640 /* HandbookPlusApp.swift in Sources */,
+				68536FDB25B1AA540009AA94 /* UnitSpeedModel.swift in Sources */,
 				68E3AEB62582456D001B4640 /* ImageOverlay.swift in Sources */,
+				68EF1D8A25B189E4005A9973 /* UnitDurationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

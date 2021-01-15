@@ -11,7 +11,6 @@ struct CatalogItemView: View {
     
     @State var catalogItem: CatalogModel
     
-    
     var body: some View {
         TabView {
             Text(catalogItem.title)
@@ -29,13 +28,15 @@ struct CatalogItemView: View {
                     Image(systemName: "arrow.left.arrow.right")
                     Text("Перевод единиц")
                 }
-            Text("Калькуляторы")
+            CalcView(model: UnitViewModel(unitTypes: engineerCalcData))
+                
                 .tabItem {
                     Image(systemName: "candybarphone")
                     Text("Калькуляторы")
                 }
         }
         .navigationTitle(catalogItem.title)
+        .navigationBarTitleDisplayMode(.inline)
     }
     
 }
