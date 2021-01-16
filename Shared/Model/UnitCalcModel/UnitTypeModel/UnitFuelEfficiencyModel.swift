@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitFuelEfficiencyModel: UnitCalcModelProtocol {
+class UnitFuelEfficiencyModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfFuelEfficiency
     var title = NSLocalizedString("Units of fuel efficiency", comment: "UnitCalcModel")

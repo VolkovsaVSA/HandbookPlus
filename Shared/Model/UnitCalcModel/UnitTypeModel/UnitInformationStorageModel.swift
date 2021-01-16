@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitInformationStorageModel: UnitCalcModelProtocol {
+class UnitInformationStorageModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfInformationStorage
     var title = NSLocalizedString("Units of information storage", comment: "UnitCalcModel")

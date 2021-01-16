@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitPressureModel: UnitCalcModelProtocol {
+class UnitPressureModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfPressure
     var title = NSLocalizedString("Units of pressure", comment: "UnitCalcModel")

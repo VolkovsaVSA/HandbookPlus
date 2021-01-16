@@ -27,5 +27,7 @@ enum MyUnitCalcType {
          UnitOfElectricResistance,
          UnitOfElectricPotentialDifference,
          UnitOfFuelEfficiency,
-         UnitOfInformationStorage
+         UnitOfInformationStorage,
+         UnitOfDensity
+
 }

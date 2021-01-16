@@ -7,9 +7,9 @@
 
 import Foundation
 
-protocol UnitCalcModelProtocol {
+protocol UnitTypeCalcProtocol {
     var id: UUID {get}
     var unitType: MyUnitCalcType {get}
     var title: String {get}
-    var units: [Dimension] {get}
+    var units: [UnitCalcModel] {get}
 }

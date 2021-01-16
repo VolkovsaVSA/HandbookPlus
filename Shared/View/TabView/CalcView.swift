@@ -46,6 +46,7 @@ struct CalcView: View {
                                 model.calc()
                             }, label: {
                                 Text("\(item.localeFormatFunc(style: .long))")
+                                    .padding(2)
                                     .multilineTextAlignment(.center)
                             })
                             .modifier(CalcButtonModifire())
@@ -62,7 +63,9 @@ struct CalcView: View {
                                 model.calc()
                             }, label: {
                                 Text("\(item.localeFormatFunc(style: .long))")
+                                    .padding(2)
                                     .multilineTextAlignment(.center)
+                                    
                             })
                             .modifier(CalcButtonModifire())
                             .background(item == model.secondSelect ? Color.green : .clear)
@@ -82,9 +85,3 @@ struct CalcView: View {
         
     }
 }
-//
-//struct CalcView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CalcView()
-//    }
-//}

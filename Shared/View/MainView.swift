@@ -11,8 +11,6 @@ struct MainView: View {
     
     
     
-    
-    
     var body: some View {
         NavigationView {
             List(testData) { category in

@@ -7,12 +7,11 @@
 
 import Foundation
 
-class UnitMassModel: UnitCalcModelProtocol {
+class UnitMassModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfMass
     var title = NSLocalizedString("Units of mass", comment: "UnitCalcModel")
     var units: [Dimension] = [
-        UnitMass.kilograms,
         UnitMass.carats,
         UnitMass.centigrams,
         UnitMass.decigrams,

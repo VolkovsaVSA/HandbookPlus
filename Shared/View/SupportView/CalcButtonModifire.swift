@@ -15,7 +15,7 @@ struct CalcButtonModifire: ViewModifier {
             .foregroundColor(Color(.label))
             .frame(width: 150, height: 50, alignment: .center)
             .animation(Animation.spring())
-            .border(Color.black, width: 1)
+            .border(Color(.label), width: 1)
             .shadow(radius: 4)
     }
 }

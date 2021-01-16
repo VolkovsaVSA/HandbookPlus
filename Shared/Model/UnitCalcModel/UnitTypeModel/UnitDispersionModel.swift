@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitDispersionModel: UnitCalcModelProtocol {
+class UnitDispersionModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfDispersion
     var title = NSLocalizedString("Units of dispersion", comment: "UnitCalcModel")

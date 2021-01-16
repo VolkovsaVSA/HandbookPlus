@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitVolumeModel: UnitCalcModelProtocol {
+class UnitVolumeModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfVolume
     var title = NSLocalizedString("Units of volume", comment: "UnitCalcModel")

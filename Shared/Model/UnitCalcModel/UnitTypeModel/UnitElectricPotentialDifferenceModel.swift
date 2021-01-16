@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitElectricPotentialDifferenceModel: UnitCalcModelProtocol {
+class UnitElectricPotentialDifferenceModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfElectricPotentialDifference
     var title = NSLocalizedString("Units of electric potential difference", comment: "UnitCalcModel")

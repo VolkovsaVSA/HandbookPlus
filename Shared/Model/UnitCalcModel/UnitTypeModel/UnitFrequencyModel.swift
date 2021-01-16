@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitFrequencyModel: UnitCalcModelProtocol {
+class UnitFrequencyModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfFrequency
     var title = NSLocalizedString("Units of frequency", comment: "UnitCalcModel")

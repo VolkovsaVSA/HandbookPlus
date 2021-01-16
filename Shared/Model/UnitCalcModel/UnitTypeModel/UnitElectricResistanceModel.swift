@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitElectricResistanceModel: UnitCalcModelProtocol {
+class UnitElectricResistanceModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfElectricResistance
     var title = NSLocalizedString("Units of electric resistance", comment: "UnitCalcModel")

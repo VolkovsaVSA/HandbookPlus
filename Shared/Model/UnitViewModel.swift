@@ -9,7 +9,7 @@ import Foundation
 
 class UnitViewModel: Identifiable, ObservableObject {
     
-    init(unitTypes: [UnitCalcModelProtocol]) {
+    init(unitTypes: [UnitTypeCalcProtocol]) {
         self.unitTypes = unitTypes
         let filteredType = (unitTypes.filter {$0.unitType == .UnitOfLength}).first
         units = filteredType!.units
@@ -19,7 +19,7 @@ class UnitViewModel: Identifiable, ObservableObject {
     }
     
     let id = UUID()
-    @Published var unitTypes: [UnitCalcModelProtocol]
+    @Published var unitTypes: [UnitTypeCalcProtocol]
     @Published var units: [Dimension]
     @Published var firstUnitText = ""
     @Published var secondUnitText = ""
@@ -35,12 +35,13 @@ class UnitViewModel: Identifiable, ObservableObject {
         }
     }
     
-    func filterTypes(unitType: MyUnitCalcType)->UnitCalcModelProtocol {
+    func filterTypes(unitType: MyUnitCalcType)->UnitTypeCalcProtocol {
         return (unitTypes.filter { $0.unitType == unitType }).first!
     }
     
     func calc() {
         let textDouble = Double(firstUnitText.replacingOccurrences(of: ",", with: ".")) ?? 0
-        secondUnitText = Measurement(value: textDouble, unit: firstSelect).converted(to: secondSelect).description
+
+        secondUnitText = Measurement(value: textDouble, unit: firstSelect).converted(to: secondSelect).localeFormatFunc(style: .short)
     }
 }

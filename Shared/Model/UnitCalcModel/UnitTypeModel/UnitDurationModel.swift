@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitDurationModel: UnitCalcModelProtocol {
+class UnitDurationModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfDuration
     var title = NSLocalizedString("Units of duration", comment: "UnitCalcModel")

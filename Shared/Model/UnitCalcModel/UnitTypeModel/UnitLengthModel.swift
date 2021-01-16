@@ -8,7 +8,7 @@
 import Foundation
 
 
-class UnitLengthModel: UnitCalcModelProtocol {
+class UnitLengthModel: UnitTypeCalcProtocol {
     
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfLength
@@ -26,6 +26,7 @@ class UnitLengthModel: UnitCalcModelProtocol {
         UnitLength.lightyears,
         UnitLength.megameters,
         UnitLength.meters,
+        UnitLength.microInch,
         UnitLength.micrometers,
         UnitLength.miles,
         UnitLength.millimeters,
@@ -34,6 +35,10 @@ class UnitLengthModel: UnitCalcModelProtocol {
         UnitLength.parsecs,
         UnitLength.picometers,
         UnitLength.scandinavianMiles,
-        UnitLength.yards
+        UnitLength.yards,
+        
     ]
+    
 }
+
+

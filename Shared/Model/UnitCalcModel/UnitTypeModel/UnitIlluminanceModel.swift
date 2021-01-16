@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitIlluminanceModel: UnitCalcModelProtocol {
+class UnitIlluminanceModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfIlluminance
     var title = NSLocalizedString("Units of illuminance", comment: "UnitCalcModel")

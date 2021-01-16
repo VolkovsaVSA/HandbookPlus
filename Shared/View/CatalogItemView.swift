@@ -29,7 +29,6 @@ struct CatalogItemView: View {
                     Text("Перевод единиц")
                 }
             CalcView(model: UnitViewModel(unitTypes: engineerCalcData))
-                
                 .tabItem {
                     Image(systemName: "candybarphone")
                     Text("Калькуляторы")

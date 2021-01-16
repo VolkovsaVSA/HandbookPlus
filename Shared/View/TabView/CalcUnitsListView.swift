@@ -26,6 +26,7 @@ struct CalcUnitsListView: View {
                         Spacer()
                         if model.selectedUnitType == item.unitType {
                             Image(systemName: "checkmark")
+                                .foregroundColor(.blue)
                         }
                     }
                 }

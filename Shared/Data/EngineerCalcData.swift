@@ -7,7 +7,7 @@
 
 import Foundation
 
-let engineerCalcData: [UnitCalcModelProtocol] = [
+let engineerCalcData: [UnitTypeCalcProtocol] = [
     UnitAccelerationModel(),
     UnitAngleModel(),
     UnitAreaModel(),
