@@ -11,5 +11,7 @@ protocol UnitTypeCalcProtocol {
     var id: UUID {get}
     var unitType: MyUnitCalcType {get}
     var title: String {get}
+    var typeDescription: String {get}
     var units: [UnitCalcModel] {get}
+    
 }

@@ -19,7 +19,6 @@ enum MyUnitCalcType {
          UnitOfPressure,
          UnitOfDuration,
          UnitOfFrequency,
-         UnitOfDispersion,
          UnitOfIlluminance,
          UnitOfTemperature,
          UnitOfElectricCharge,
@@ -28,6 +27,7 @@ enum MyUnitCalcType {
          UnitOfElectricPotentialDifference,
          UnitOfFuelEfficiency,
          UnitOfInformationStorage,
-         UnitOfDensity
+         UnitOfDensity,
+         UnitOfForce
 
 }

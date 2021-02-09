@@ -11,6 +11,9 @@ class UnitDensityModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfDensity
     var title = NSLocalizedString("Units of density", comment: "UnitCalcModel")
+    var typeDescription = NSLocalizedString("""
+The mass density or density of an object is a scalar value, which is equal to its mass per unit volume. In other words, density is the measure of the relative “heaviness” of different objects having a constant volume. The SI unit for density is kilograms per cubic meter (kg/m³).
+""", comment: "UnitTypeDescription")
     var units: [UnitCalcModel] = [
         UnitCalcModel(title: NSLocalizedString("Kilogram per cubic meter", comment: "kilogramPerCubicMeter title"), unit: UnitDensity.kilogramPerCubicMeter, unitDescription: ""),
         UnitCalcModel(title: NSLocalizedString("Gram per cubic meter", comment: "gramPerCubicMeter title"), unit: UnitDensity.gramPerCubicMeter, unitDescription: ""),

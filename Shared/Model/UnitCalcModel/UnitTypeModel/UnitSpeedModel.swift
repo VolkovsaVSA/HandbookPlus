@@ -11,6 +11,9 @@ class UnitSpeedModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfSpeed
     var title = NSLocalizedString("Units of speed", comment: "UnitCalcModel")
+    var typeDescription = NSLocalizedString("""
+            
+            """, comment: "UnitOfMass type description")
     var units: [UnitCalcModel] = [
         UnitCalcModel(title: NSLocalizedString("Meters per second", comment: "metersPerSecond title"),
                       unit: UnitSpeed.metersPerSecond,

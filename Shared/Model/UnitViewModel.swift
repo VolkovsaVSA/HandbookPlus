@@ -20,11 +20,11 @@ class UnitViewModel: Identifiable, ObservableObject {
     
     let id = UUID()
     @Published var unitTypes: [UnitTypeCalcProtocol]
-    @Published var units: [Dimension]
+    @Published var units: [UnitCalcModel]
     @Published var firstUnitText = ""
     @Published var secondUnitText = ""
-    @Published var firstSelect: Dimension
-    @Published var secondSelect: Dimension
+    @Published var firstSelect: UnitCalcModel
+    @Published var secondSelect: UnitCalcModel
     @Published var selectedUnitType: MyUnitCalcType {
         didSet {
             units = filterTypes(unitType: selectedUnitType).units
@@ -41,7 +41,6 @@ class UnitViewModel: Identifiable, ObservableObject {
     
     func calc() {
         let textDouble = Double(firstUnitText.replacingOccurrences(of: ",", with: ".")) ?? 0
-
-        secondUnitText = Measurement(value: textDouble, unit: firstSelect).converted(to: secondSelect).localeFormatFunc(style: .short)
+        secondUnitText = Measurement(value: textDouble, unit: firstSelect.unit).converted(to: secondSelect.unit).localeFormatFunc(style: .short)
     }
 }

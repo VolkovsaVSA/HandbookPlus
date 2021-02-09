@@ -11,6 +11,9 @@ class UnitAreaModel: UnitTypeCalcProtocol {
     var id = UUID()
     var unitType = MyUnitCalcType.UnitOfArea
     var title = NSLocalizedString("Units of area", comment: "UnitCalcModel")
+    var typeDescription = NSLocalizedString("""
+Area is the amount of space a two-dimensional (flat or uneven) surface takes up. Every unit of length has a corresponding unit of area. Thus, areas can be measured in square meters (m²), square centimeters (cm²), square millimeters (mm²), square kilometers (km²), square feet (ft²), square yards (yd²), square miles (mi²), etc. The SI unit of area is the square meter, which is considered an SI derived unit.
+""", comment: "UnitTypeDescription")
     var units: [UnitCalcModel] = [
         UnitCalcModel(title: NSLocalizedString("Square meters", comment: "squareMeters title"), unit: UnitArea.squareMeters, unitDescription: ""),
         UnitCalcModel(title: NSLocalizedString("Square nanometers", comment: "squareNanometers title"), unit: UnitArea.squareNanometers, unitDescription: ""),

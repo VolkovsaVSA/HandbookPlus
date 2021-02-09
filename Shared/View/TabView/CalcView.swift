@@ -40,7 +40,7 @@ struct CalcView: View {
             HStack {
                 ScrollView(.vertical) {
                     VStack(alignment: .center, spacing: 8) {
-                        ForEach(model.units, id:\.self) { item in
+                        ForEach(model.units, id:\.id) { item in
                             Button(action: {
                                 model.firstSelect = item
                                 model.calc()
@@ -57,7 +57,7 @@ struct CalcView: View {
                 Spacer()
                 ScrollView(.vertical) {
                     VStack(alignment: .leading, spacing: 8) {
-                        ForEach(model.units, id:\.self) { item in
+                        ForEach(model.units, id:\.id) { item in
                             Button(action: {
                                 model.secondSelect = item
                                 model.calc()
@@ -65,7 +65,7 @@ struct CalcView: View {
                                 Text("\(item.localeFormatFunc(style: .long))")
                                     .padding(2)
                                     .multilineTextAlignment(.center)
-                                    
+
                             })
                             .modifier(CalcButtonModifire())
                             .background(item == model.secondSelect ? Color.green : .clear)
