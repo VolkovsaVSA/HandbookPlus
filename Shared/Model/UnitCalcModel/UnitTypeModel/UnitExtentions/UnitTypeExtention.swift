@@ -230,6 +230,37 @@ extension UnitLength {
 
 extension UnitMass {
     static let longTons = UnitMass(symbol: NSLocalizedString("ton (long)", comment: "longTons symbol"), converter: UnitConverterLinear(coefficient: 1016.0469088))
+    static let dalton = UnitMass(symbol: NSLocalizedString("Da", comment: "dalton symbol"), converter: UnitConverterLinear(coefficient: 1.660530000001e-27))
+    static let hundredweightUS = UnitMass(symbol: NSLocalizedString("hundredweight (US)", comment: "hundredweightUS symbol"), converter: UnitConverterLinear(coefficient: 45.35923699999))
+    static let hundredweightUK = UnitMass(symbol: NSLocalizedString("hundredweight (UK)", comment: "hundredweightUK symbol"), converter: UnitConverterLinear(coefficient: 50.80234543999))
+    static let quartertUS = UnitMass(symbol: NSLocalizedString("quarter (US)", comment: "quarterUS symbol"), converter: UnitConverterLinear(coefficient: 11.33980925))
+    static let quartertUK = UnitMass(symbol: NSLocalizedString("quarter (UK)", comment: "quarterUK symbol"), converter: UnitConverterLinear(coefficient: 12.70058636))
+    static let stoneUS = UnitMass(symbol: NSLocalizedString("st (US)", comment: "stoneUS symbol"), converter: UnitConverterLinear(coefficient: 5.669904625))
+    static let stoneUK = UnitMass(symbol: NSLocalizedString("st (UK)", comment: "stoneUK symbol"), converter: UnitConverterLinear(coefficient: 6.35029318))
+    static let grain = UnitMass(symbol: NSLocalizedString("gr", comment: "grain symbol"), converter: UnitConverterLinear(coefficient: 0.00006479891000017))
+    
+    static let mo = UnitMass(symbol: NSLocalizedString("Mō", comment: "Mō symbol"), converter: UnitConverterLinear(coefficient: 0.00000375))
+    static let rin = UnitMass(symbol: NSLocalizedString("Rin", comment: "Rin symbol"), converter: UnitConverterLinear(coefficient: 0.0000375))
+    static let fun = UnitMass(symbol: NSLocalizedString("Fun", comment: "Fun symbol"), converter: UnitConverterLinear(coefficient: 0.000375))
+    static let momme = UnitMass(symbol: NSLocalizedString("Momme", comment: "momme symbol"), converter: UnitConverterLinear(coefficient: 0.00375))
+    static let hyakume = UnitMass(symbol: NSLocalizedString("Hyakume", comment: "Hyakume symbol"), converter: UnitConverterLinear(coefficient: 0.375))
+    static let kin = UnitMass(symbol: NSLocalizedString("Kin", comment: "Kin symbol"), converter: UnitConverterLinear(coefficient: 0.6))
+    static let kan = UnitMass(symbol: NSLocalizedString("Kan", comment: "kan symbol"), converter: UnitConverterLinear(coefficient: 3.75))
+    static let maru = UnitMass(symbol: NSLocalizedString("Maru", comment: "Maru symbol"), converter: UnitConverterLinear(coefficient: 30))
+    static let tan = UnitMass(symbol: NSLocalizedString("Tan", comment: "Tan symbol"), converter: UnitConverterLinear(coefficient: 60))
+}
+
+extension UnitPressure {
+    static let pascals = UnitMass(symbol: NSLocalizedString("Pa", comment: "pascals symbol"), converter: UnitConverterLinear(coefficient: 1))
+    static let dynesPerSquareCentimeter = UnitMass(symbol: NSLocalizedString("dyn/cm²", comment: "dynes per square centimeter symbol"), converter: UnitConverterLinear(coefficient: 0.1))
+    static let ksi = UnitMass(symbol: NSLocalizedString("ksi", comment: "ksi symbol"), converter: UnitConverterLinear(coefficient: 6894757.293178))
+    static let torr = UnitMass(symbol: NSLocalizedString("Torr", comment: "torr symbol"), converter: UnitConverterLinear(coefficient: 133.3223684211))
+    static let technicalAtmosphere = UnitMass(symbol: NSLocalizedString("at", comment: "technicalAtmosphere symbol"), converter: UnitConverterLinear(coefficient: 98066.5))
+    static let standardAtmosphere = UnitMass(symbol: NSLocalizedString("atm", comment: "standardAtmosphere symbol"), converter: UnitConverterLinear(coefficient: 101325))
+    static let barye = UnitMass(symbol: NSLocalizedString("Ba", comment: "barye symbol"), converter: UnitConverterLinear(coefficient: 0.1))
+    static let meterOfSeaWater = UnitMass(symbol: NSLocalizedString("msw", comment: "meterOfSeaWater symbol"), converter: UnitConverterLinear(coefficient: 10000))
+    static let meterOfWater = UnitMass(symbol: NSLocalizedString("mAq", comment: "meterOfWater symbol"), converter: UnitConverterLinear(coefficient: 9806.38))
+    
 }
 
 extension UnitSpeed {
@@ -243,3 +274,17 @@ extension UnitSpeed {
     
 }
 
+extension UnitTemperature {
+    static let rankine = UnitTemperature(symbol: NSLocalizedString("°R", comment: "rankine symbol"), converter: UnitConverterLinear(coefficient: 0.5555555555556))
+    static let reaumur = UnitTemperature(symbol: NSLocalizedString("°Re", comment: "reaumur symbol"), converter: UnitConverterLinear(coefficient: 274.4))
+}
+
+extension UnitVolume {
+    static let barrelOil = UnitVolume(symbol: NSLocalizedString("bbl", comment: "barrelOil symbol"), converter: UnitConverterLinear(coefficient: 158.987294928))
+    static let barrelUS = UnitVolume(symbol: NSLocalizedString("bl (US)", comment: "barrelUS symbol"), converter: UnitConverterLinear(coefficient: 119.240471196))
+    static let barrelUK = UnitVolume(symbol: NSLocalizedString("bl (UK)", comment: "barrelUK symbol"), converter: UnitConverterLinear(coefficient: 163.65924))
+    static let cupsUK = UnitVolume(symbol: NSLocalizedString("cup (UK)", comment: "cupsUK symbol"), converter: UnitConverterLinear(coefficient: 0.284130625))
+    static let tablespoonsMetric = UnitVolume(symbol: NSLocalizedString("tbsp. (metric)", comment: "tablespoonsMetric symbol"), converter: UnitConverterLinear(coefficient: 0.015))
+    static let teaspoonsMetric = UnitVolume(symbol: NSLocalizedString("tsp. (metric)", comment: "teaspoonsMetric symbol"), converter: UnitConverterLinear(coefficient: 0.005))
+    
+}
