@@ -13,11 +13,9 @@ class UnitFrequencyModel: UnitTypeCalcProtocol {
     var title = NSLocalizedString("Units of frequency", comment: "unit type title")
     var typeDescription = NSLocalizedString("""
 Frequency is the number of occurrences of a repeating event per unit of time. The period is the duration of one cycle in a repeating event, so the period is the reciprocal of the frequency.
-
 Any wave pattern can be described in terms of sinusoidal components. The wavelength of a sinusoidal wave is the distance over which the wave’s shape repeats. For periodic waves, frequency has an inverse relationship to the concept of wavelength; simply, frequency is inversely proportional to wavelength. The frequency f is equal to the phase velocity v of the wave divided by the wavelength λ of the wave: f = v/λ or λ = v/f.
 In the case of electromagnetic radiation in a vacuum—the speed v is the speed of light, about 3·10⁸ m/s. Thus the wavelength of a 100 MHz FM radio wave is about: 3·10⁸ m/s divided by 10⁸ Hz = 3 meters.
 For sound waves in air, the speed of sound is 343 m/s. The wavelength of a tuning fork (440 Hz) is thus equal to approximately 0.78 m.
-
 In SI units, the unit of frequency is the hertz (Hz). 1 Hz means that an event repeats once every second. A previous name for this unit was a cycle per second. The SI unit of wavelength is the meter.
 """, comment: "unit type description")
     var units: [UnitCalcModel] = [

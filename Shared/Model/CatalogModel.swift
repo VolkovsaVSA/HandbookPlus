@@ -12,6 +12,7 @@ struct CatalogModel: Identifiable {
     var title: String
     var image: String
     var unitConversionPart: UnitConversionModel
+    var calcUnits: CalcViewModel
 }
 
 
@@ -23,8 +24,8 @@ let testData = [
             headerGrid: UnitConversionModel.HeaderUnitConversion(headerGridType: [GridItem(.flexible())],
                                                                  headerTitles: [AnyView(EmptyView())], headerFont: Font.system(size: 10)),
             lineGrid: UnitConversionModel.LineUnitConversion(lineGridType: [GridItem(.flexible())],
-                                                             lineTitles: [[AnyView(EmptyView())]], lineFont: Font.system(size: 10))
-        )
+                                                             lineTitles: [[AnyView(EmptyView())]], lineFont: Font.system(size: 10))),
+        calcUnits: CalcViewModel(unitTypes: engineerCalcData)
     ),
     CatalogModel(
         title: "Метрология",
@@ -33,13 +34,14 @@ let testData = [
             headerGrid: UnitConversionModel.HeaderUnitConversion(headerGridType: [GridItem(.flexible())],
                                                                  headerTitles: [AnyView(EmptyView())], headerFont: Font.system(size: 10)),
             lineGrid: UnitConversionModel.LineUnitConversion(lineGridType: [GridItem(.flexible())],
-                                                             lineTitles: [[AnyView(EmptyView())]], lineFont: Font.system(size: 10))
-        )
+                                                             lineTitles: [[AnyView(EmptyView())]], lineFont: Font.system(size: 10))),
+        calcUnits: CalcViewModel(unitTypes: engineerCalcData)
     ),
     CatalogModel(
         title: "Машиностроение",
         image: "metrologic",
-        unitConversionPart: EngineerUnitConversionData),
+        unitConversionPart: EngineerUnitConversionData,
+        calcUnits: CalcViewModel(unitTypes: engineerCalcData)),
     CatalogModel(
         title: "Строительство",
         image: "metrologic",
@@ -47,8 +49,8 @@ let testData = [
             headerGrid: UnitConversionModel.HeaderUnitConversion(headerGridType: [GridItem(.flexible())],
                                                                  headerTitles: [AnyView(EmptyView())], headerFont: Font.system(size: 10)),
             lineGrid: UnitConversionModel.LineUnitConversion(lineGridType: [GridItem(.flexible())],
-                                                             lineTitles: [[AnyView(EmptyView())]], lineFont: Font.system(size: 10))
-        )
+                                                             lineTitles: [[AnyView(EmptyView())]], lineFont: Font.system(size: 10))),
+        calcUnits: CalcViewModel(unitTypes: engineerCalcData)
     )
 ]
 

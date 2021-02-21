@@ -23,8 +23,8 @@ let engineerCalcData: [UnitTypeCalcProtocol] = [
     UnitInformationStorageModel(),
     UnitLengthModel(),
     UnitMassModel(),
-    //UnitPressureModel(),
+    UnitPressureModel(),
     UnitSpeedModel(),
-    //UnitTemperatureModel(),
-    //UnitVolumeModel()
+    UnitTemperatureModel(),
+    UnitVolumeModel()
 ]

@@ -13,9 +13,7 @@ class UnitInformationStorageModel: UnitTypeCalcProtocol {
     var title = NSLocalizedString("Units of information storage", comment: "UnitCalcModel")
     var typeDescription = NSLocalizedString("""
             A unit of information is the capacity of a standard data storage device or a communication channel used to measure the capacities of other systems and channels. The most common units are the bit and the byte (or octet). Information capacity is a dimensionless quantity because it refers to a count of binary symbols.
-
             A bit is the basic unit of information in computing and telecommunications; a bit can have the value of either 1 or 0 only. A bit can also be defined as a variable or computed quantity that can have only two possible values. These two values are often denoted by the numerical digits 0 and 1. These two values can also be interpreted as logical values (true/false, yes/no), on/off state or any other two-valued attribute or physical condition such as flow/no flow or high pressure/low pressure.
-
             A byte is a unit of digital information in computing and telecommunications that most commonly consists of eight bits.
             """, comment: "unit type description")
     var units: [UnitCalcModel] = [

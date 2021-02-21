@@ -29,5 +29,4 @@ enum MyUnitCalcType {
          UnitOfInformationStorage,
          UnitOfDensity,
          UnitOfForce
-
 }

@@ -15,7 +15,6 @@ class UnitLengthModel: UnitTypeCalcProtocol {
     var title = NSLocalizedString("Units of length", comment: "UnitCalcModel")
     var typeDescription = NSLocalizedString("""
             In geometric measurements, length most commonly refers to the longest dimension of an object. In certain contexts, the term “length” is reserved for a certain dimension of an object along which the length is measured. For example, it is possible to cut a length of a rope that is shorter than rope thickness. In physics and engineering, when one speaks of “units of length”, the word “length” is synonymous with “distance”.
-
             Several units are used to measure length. In the International System of Units (SI), the basic unit of length is the meter, which is defined in terms of the speed of light. The meter is defined as the length of the path traveled by light in vacuum during a time interval of 1⁄299,792,458 of a second. There are many other commonly used units of length such as the inch, the foot, the yard, and the mile.
             """, comment: "length type description")
     var units: [UnitCalcModel] = [

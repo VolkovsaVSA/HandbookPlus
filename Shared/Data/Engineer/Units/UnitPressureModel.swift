@@ -13,7 +13,6 @@ class UnitPressureModel: UnitTypeCalcProtocol {
     var title = NSLocalizedString("Units of pressure", comment: "UnitCalcModel")
     var typeDescription = NSLocalizedString("""
             Pressure is the ratio of force to the area over which that force is distributed. In other words, pressure is force per unit area applied in a direction perpendicular to the surface of an object.
-
             Pressure may be measured in any unit of force divided by any unit of area. The SI unit of pressure is the pascal (Pa). One pascal is defined as one newton per square meter. A pressure of 1 Pa is small, therefore everyday pressures are often stated in kilopascals (1 kPa = 1000 Pa).
             """, comment: "UnitOfPressure type description")
     var units: [UnitCalcModel] = [

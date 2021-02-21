@@ -13,9 +13,7 @@ class UnitFuelEfficiencyModel: UnitTypeCalcProtocol {
     var title = NSLocalizedString("Units of fuel efficiency", comment: "unit type title")
     var typeDescription = NSLocalizedString("""
 Fuel efficiency is a form of thermal efficiency, meaning the efficiency of a process that converts chemical potential energy contained in a carrier fuel into kinetic energy or work. The fuel efficiency of vehicles can be expressed as fuel consumption and fuel economy.
-
 Fuel consumption is the amount of fuel used per unit distance; for example, litres per 100 kilometers (L/100 km). In this case, the lower the value, the more economical a vehicle is (the less fuel it needs to travel a certain distance). Fuel consumption is a reciprocal of fuel economy.
-
 Fuel economy is the distance travelled per unit volume of fuel used; for example, kilometers per litre (km/L) or miles per gallon (MPG), where 1 MPG (imperial) ≈ 0.354006 km/L. In this case, the higher the value, the more economical a vehicle is (the more distance it can travel with a certain volume of fuel). Fuel economy is a reciprocal of fuel consumption.
 """, comment: "unit type description")
     var units: [UnitCalcModel] = [

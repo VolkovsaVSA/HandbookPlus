@@ -10,7 +10,7 @@ import SwiftUI
 struct CalcUnitsListView: View {
     
     @Environment(\.presentationMode) var presentationMode
-    @ObservedObject var model: UnitViewModel
+    @ObservedObject var model: CalcViewModel
     
     
     var body: some View {

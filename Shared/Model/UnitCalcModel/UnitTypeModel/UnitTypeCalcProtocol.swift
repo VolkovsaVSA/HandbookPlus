@@ -13,5 +13,4 @@ protocol UnitTypeCalcProtocol {
     var title: String {get}
     var typeDescription: String {get}
     var units: [UnitCalcModel] {get}
-    
 }

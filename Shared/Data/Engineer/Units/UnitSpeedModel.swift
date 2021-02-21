@@ -13,7 +13,6 @@ class UnitSpeedModel: UnitTypeCalcProtocol {
     var title = NSLocalizedString("Units of speed", comment: "UnitCalcModel")
     var typeDescription = NSLocalizedString("""
             Velocity is a vector measure of how fast and how far an object has moved in a particular direction. In physics, velocity means the time it took an object to move from one place to another, and the direction of movement. Velocity is a vector physical quantity because both magnitude and direction are required to define it.
-
             The scalar absolute value (magnitude) of velocity is speed, a quantity that is measured in meters per second (m/s or m·s⁻¹) when using the SI (metric) system. In fluid mechanics, the Mach number is often used. It is a dimensionless quantity representing the speed of an object moving through air or other fluid divided by the local speed of sound. It is commonly used to represent the speed of an object when it is traveling close to or above the speed of sound. "Mach 2" means an object is moving with the speed, which is equal to the speed of sound multiplied by two.
             """, comment: "UnitOfSpeed type description")
     var units: [UnitCalcModel] = [

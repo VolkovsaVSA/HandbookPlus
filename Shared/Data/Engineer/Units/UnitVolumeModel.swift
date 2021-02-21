@@ -13,7 +13,6 @@ class UnitVolumeModel: UnitTypeCalcProtocol {
     var title = NSLocalizedString("Units of volume", comment: "UnitCalcModel")
     var typeDescription = NSLocalizedString("""
             Volume is the quantity of three-dimensional space enclosed by a closed surface, for example, the space that a substance (solid, liquid, gas, or plasma) or shape occupies or contains. The volume of a container is generally understood to be the capacity of the container; i.e., the amount of fluid (gas or liquid) that the container could hold, rather than the amount of space the container itself displaces.
-
             In SI, volume is measured in cubic meters. Various other traditional units of volume are also in use, including the cubic inch, the cubic mile, the cubic foot, the tablespoon, the teaspoon, the fluid ounce, the fluid dram, the gill, the quart, the pint, the gallon, and the barrel.
             """, comment: "UnitVolume type description")
     var units: [UnitCalcModel] = [

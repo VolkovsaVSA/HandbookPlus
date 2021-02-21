@@ -13,7 +13,6 @@ class UnitEnergyModel: UnitTypeCalcProtocol {
     var title = NSLocalizedString("Units of energy", comment: "UnitCalcModel")
     var typeDescription = NSLocalizedString("""
 Energy is understood as the ability of a physical system to do work on other physical systems. Since work is defined as a force acting through a distance, energy is always equivalent to the ability to exert pulls or pushes against the basic forces of nature, along a path of a certain length. Energy is a scalar physical quantity.
-
 In SI, energy and work are measured in joules, but in many fields units like kilowatt-hours and kilocalories are often used. The joule (J) is equal to the energy expended or work done in applying a force of one newton through a distance of one meter (1 newton meter or N·m). By another definition, the joule is equal to the energy required to pass an electric current of one ampere through a one ohm resistor for one second. Electrical energy is measured by electricity meters. Thermal energy is measured by heat meters.
 """, comment: "UnitTypeDescription")
     var units: [UnitCalcModel] = [

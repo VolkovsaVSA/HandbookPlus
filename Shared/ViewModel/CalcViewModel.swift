@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitViewModel: Identifiable, ObservableObject {
+class CalcViewModel: Identifiable, ObservableObject {
     
     init(unitTypes: [UnitTypeCalcProtocol]) {
         self.unitTypes = unitTypes
@@ -16,6 +16,7 @@ class UnitViewModel: Identifiable, ObservableObject {
         firstSelect = filteredType!.units[0]
         secondSelect = filteredType!.units[0]
         selectedUnitType = .UnitOfLength
+        unitTypeDescription = filterTypes(unitType: selectedUnitType).typeDescription
     }
     
     let id = UUID()
@@ -32,8 +33,11 @@ class UnitViewModel: Identifiable, ObservableObject {
             secondSelect = units[0]
             firstUnitText = ""
             secondUnitText = ""
+            unitTypeDescription = filterTypes(unitType: selectedUnitType).typeDescription
         }
     }
+    @Published var unitTypeDescription = ""
+    
     
     func filterTypes(unitType: MyUnitCalcType)->UnitTypeCalcProtocol {
         return (unitTypes.filter { $0.unitType == unitType }).first!

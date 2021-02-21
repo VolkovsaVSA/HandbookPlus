@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnitCalcModel: Identifiable {
+class UnitCalcModel: Identifiable, Equatable {
     static func == (lhs: UnitCalcModel, rhs: UnitCalcModel) -> Bool {
         lhs.unit == rhs.unit
     }

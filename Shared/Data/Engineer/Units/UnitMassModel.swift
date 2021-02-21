@@ -13,7 +13,6 @@ class UnitMassModel: UnitTypeCalcProtocol {
     var title = NSLocalizedString("Units of mass", comment: "UnitCalcModel")
     var typeDescription = NSLocalizedString("""
             In physics, mass, or more specifically inertial mass, is defined as a quantitative measure of an object’s resistance to acceleration. Gravitational mass is defined as the property of a body that causes it to have weight in a gravitational field. It can also be described as a measure of the magnitude of the gravitational force which is exerted by an object, or experienced by an object when interacting with a second object.
-
             The International System of Units (SI) unit of mass is the kilogram (kg).
             """, comment: "UnitOfMass type description")
     var units: [UnitCalcModel] = [

@@ -12,14 +12,10 @@ class UnitIlluminanceModel: UnitTypeCalcProtocol {
     var unitType = MyUnitCalcType.UnitOfIlluminance
     var title = NSLocalizedString("Units of illuminance", comment: "unit type title")
     var typeDescription = NSLocalizedString("""
-            Illuminance
-            
             In physics, illuminance is the total amount of light energy reaching an illuminated surface per unit area. It is a measure of the light intensity, as perceived by the human eye. In other words, illuminance defines how much the incident light illuminates the surface, wavelength-weighted by the luminosity function to correlate with human brightness perception.
             Similarly, luminous emittance is the luminous flux per unit area emitted from a surface. Luminous emittance is also known as luminous exitance.
             One can think of luminous flux, which is measured in lumens, as a measure of the total “amount” of visible light present. The illuminance is a measure of the intensity of illumination on a surface. The larger the area illuminated by a given light source, the more dimly this area will be lit by this light source. Therefore, illuminance is inversely proportional to area.
-
             In SI derived units illuminance is measured in lux (lx) or lumens per square meter (1 lx = 1 lm/m² = 1 cd·sr/m²). In the CGS system, the unit of illuminance is the phot, which is equal to 10,000 lux. In photography a non-metric unit of illuminance, the foot-candle is often used. Foot-candle is defined as the amount of illumination the inside surface of a 1-foot radius sphere would be receiving if there were a uniform point source of one candela in the exact center of the sphere. Alternatively, it can be defined as the illuminance on a 1-square foot surface of which there is a uniformly distributed flux of one lumen. In other words, it is the amount of light that actually falls on a given surface. The foot-candle is equal to one lumen per square foot.
-            
             """, comment: "unit type description")
     var units: [UnitCalcModel] = [
         UnitCalcModel(title: NSLocalizedString("Lux", comment: "lux title"),

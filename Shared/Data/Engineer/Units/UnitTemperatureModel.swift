@@ -13,7 +13,6 @@ class UnitTemperatureModel: UnitTypeCalcProtocol {
     var title = NSLocalizedString("Units of temperature", comment: "UnitCalcModel")
     var typeDescription = NSLocalizedString("""
             Temperature is a scalar physical quantity describing how quickly molecules are moving inside materials. In liquids and solids, the molecules are vibrating around a fixed point in the substance. In gases, however, they are free and bouncing off each other as they travel. If the path of heat transfer between cold and hot bodies is open, heat flows spontaneously from higher temperature bodies to lower temperature bodies. This flow rate increases with the temperature difference. At the same time, if two bodies have the same temperature, no heat exchange occurs between them. Such bodies are said to be in a thermal equilibrium state. The zeroth law of thermodynamics states that if two systems are in thermal equilibrium with a third system, they are also in thermal equilibrium with each other. The temperatures are equal for all systems in thermal equilibrium. This allows to make a thermometer to measure the temperature of the medium in which it is immersed.
-
             In the International System of Units (SI), the temperature is measured in kelvin. It is one of the seven base units in the system. The Kelvin scale is an absolute temperature scale using as its null point absolute zero.
             """, comment: "UnitTemperature type description")
     var units: [UnitCalcModel] = [

@@ -28,7 +28,7 @@ struct CatalogItemView: View {
                     Image(systemName: "arrow.left.arrow.right")
                     Text("Перевод единиц")
                 }
-            CalcView(model: UnitViewModel(unitTypes: engineerCalcData))
+            CalcView(viewModel: CalcViewModel(unitTypes: engineerCalcData))
                 .tabItem {
                     Image(systemName: "candybarphone")
                     Text("Калькуляторы")
