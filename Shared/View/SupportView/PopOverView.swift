@@ -22,13 +22,14 @@ struct PopOverView<Content>: View where Content: View {
             ZStack(alignment: .center) {
                 content()
                     .disabled(isShowing)
-                    .blur(radius: isShowing ? 3 : 0)
+                    .blur(radius: isShowing ? 4 : 0)
                 
                 Text(text)
                     .font(.system(size: 13, weight: .medium, design: .default))
                     .padding()
                     .frame(width: geometry.size.width * 0.95)
                     .background(Color.secondary.colorInvert())
+                    //.background(Color(UIColor.systemGray5).opacity(0.6))
                     .foregroundColor(Color.primary)
                     .cornerRadius(20)
                     .opacity(isShowing ? 1 : 0)

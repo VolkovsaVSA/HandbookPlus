@@ -128,6 +128,26 @@ class UnitVolumeModel: UnitTypeCalcProtocol {
         UnitCalcModel(title: NSLocalizedString("Acre-foot", comment: "acreFeet title"),
                       unit: UnitVolume.acreFeet,
                       unitDescription: NSLocalizedString("The acre-foot is a non-SI unit of volume commonly used in the United States in reference to large-scale water resources, such as reservoirs, aqueducts, canals, sewer flow capacity, irrigation water,[1] and river flows. An acre-foot equals approximately an eight lane swimming pool, 82 ft (25 m) long, 52 ft (16 m) wide and 9.8 ft (3 m) deep.", comment: "acreFeet description")),
+        
+        UnitCalcModel(title: NSLocalizedString("Sai (japanese)", comment: "Sai title"),
+                      unit: UnitVolume.sai,
+                      unitDescription: NSLocalizedString("The sai is a traditional Chinese unit of volume equal to 1/1000 Sho.", comment: "Sai description")),
+        UnitCalcModel(title: NSLocalizedString("Shaku (japanese)", comment: "shaku title"),
+                      unit: UnitVolume.shaku,
+                      unitDescription: NSLocalizedString("The shaku is a traditional Chinese unit of volume equal to 1/100 Sho.", comment: "shaku description")),
+        UnitCalcModel(title: NSLocalizedString("Gō (japanese)", comment: "go title"),
+                      unit: UnitVolume.go,
+                      unitDescription: NSLocalizedString("The gō is a traditional Chinese unit of volume equal to 1/10 Sho.", comment: "go description")),
+        UnitCalcModel(title: NSLocalizedString("Shō (japanese)", comment: "sho title"),
+                      unit: UnitVolume.sho,
+                      unitDescription: NSLocalizedString("Sho is a standard unit of volume (capacity) in the East Asian system of weights and measures. 10 gō (合; a unit of volume) is equal to 1 shō, and 10 shō is equal to 1 to (斗; a unit of volume). The volume of 1 shō varies from time to time, from place to place. After the metric system was adopted in Japan, 1 shō was set at 1.804 liters in 1891. In People's Republic of China, 1 shō (also called as sheng in pinyin) is equalized with 1 liter, and the liter as the unit of the International Unit System (SI) is also written as 'shō' (升) in a Chinese character. To make a simple distinction, the Chinese sho is called sheng (private sho), and the international sho is called kosho (public sho), but usually, they are both simply called sho because they have the same quantity.", comment: "sho description")),
+        UnitCalcModel(title: NSLocalizedString("To (japanese)", comment: "to title"),
+                      unit: UnitVolume.to,
+                      unitDescription: NSLocalizedString("The to is a traditional Chinese unit of volume equal to 10 Sho.", comment: "to description")),
+        UnitCalcModel(title: NSLocalizedString("Koku (japanese)", comment: "koku title"),
+                      unit: UnitVolume.koku,
+                      unitDescription: NSLocalizedString("The koku is historically important: since it was reckoned as the amount of rice necessary to feed a person for a single year, it was used to compute agricultural output and official salaries. The koku of rice was sometimes reckoned as 3000 \"sacks\".", comment: "koku description")),
+        
     ]
     
 }
